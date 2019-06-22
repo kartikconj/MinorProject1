@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">Time Table</string>
+
+    <string name="choose">choose</string>
+
+    <string-array name="classes">
+        <item>no class</item>
+        <item>B. Tech CSE MC VI</item>
+        <item>B. Tech CSE-LLB-CL-VII</item>
+        <item>B. Tech CSE-LLB-CL-VII</item>
+        <item>B. Tech CSE-CCVT-II-B1</item>
+        <item>B. Tech CSE-CCVT-II-B2</item>
+        <item>B. Tech CSE-CCVT-IV-B1</item>
+        <item>B. Tech CSE-CCVT-IV-B2</item>
+        <item>B. Tech CSE-CCVT-IV-B3</item>
+        <item>B. Tech CSE CCVT IV B4</item>
+        <item>B. Tech CSE CCVT V1 B1</item>
+        <item>B. Tech CSE CCVT V1 B2</item>
+        <item>B. Tech CSE CCVT V1 B3</item>
+        <item>B. Tech CSE CCVT V1 B4</item>
+        <item>B. Tech CSE GG II-B1</item>
+        <item>B. Tech CSE GG II B2</item>
+        <item>B. Tech CSE GG VI B1</item>
+        <item>B. Tech CSE GG VI B2</item>
+        <item>B. Tech CSE GG VIII B1</item>
+        <item>B. Tech CSE GG VIII B2</item>
+        <item>B. Tech CSE MT II</item>
+    </string-array>
+    <string-array name="authorization">
+        <item>admin</item>
+        <item>faculty</item>
+        <item>student</item>
+    </string-array>
+
+    <string-array name="days">
+        <item>monday</item>
+        <item>tuesday</item>
+        <item>wednesday</item>
+        <item>thursday</item>
+        <item>friday</item>
+    </string-array>
+    <string-array name="times">
+        <item>8:30-9:30</item>
+        <item>9:30-10:30</item>
+        <item>10:30-11:30</item>
+        <item>11:30-12:30</item>
+        <item>12:30-1:30</item>
+        <item>1:30-2:30</item>
+        <item>2:30-3:30</item>
+        <item>3:30-4:30</item>
+        <item>4:30-5:30</item>
+        <item>5:30-6:30</item>
+    </string-array>
+</resources>

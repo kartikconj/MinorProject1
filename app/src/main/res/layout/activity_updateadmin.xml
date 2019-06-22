@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".updateadmin"
+    android:background="@drawable/background">
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="108dp"
+        android:layout_marginEnd="28dp"
+        android:background="@drawable/textviewui"
+        android:ems="10"
+        android:hint="Enter Name"
+        android:inputType="textPersonName"
+        android:paddingLeft="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView30"
+        android:layout_width="wrap_content"
+        android:layout_height="21dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="116dp"
+        android:layout_marginEnd="8dp"
+        android:text="Name:"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/editText2"
+        app:layout_constraintHorizontal_bias="0.15"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Spinner
+        android:id="@+id/spinner13"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="32dp"
+        android:background="@drawable/textviewui"
+        android:entries="@array/times"
+        android:paddingLeft="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/spinner15" />
+
+    <TextView
+        android:id="@+id/textView31"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="44dp"
+        android:layout_marginEnd="8dp"
+        android:text="Select Time"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/spinner13"
+        app:layout_constraintHorizontal_bias="0.282"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView34" />
+
+    <TextView
+        android:id="@+id/textView32"
+        android:layout_width="wrap_content"
+        android:layout_height="26dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="8dp"
+        android:text="Select value"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/spinner14"
+        app:layout_constraintHorizontal_bias="0.289"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView31" />
+
+    <Spinner
+        android:id="@+id/spinner14"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:background="@drawable/textviewui"
+        android:paddingLeft="8dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="32dp"
+        android:entries="@array/classes"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/spinner13" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/btnui"
+        android:text="Update"
+        android:textColor="#ffffff"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/spinner14"
+        app:layout_constraintVertical_bias="0.295" />
+
+    <Spinner
+        android:id="@+id/spinner15"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="28dp"
+        android:background="@drawable/textviewui"
+        android:entries="@array/days"
+        android:paddingLeft="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editText2" />
+
+    <TextView
+        android:id="@+id/textView34"
+        android:layout_width="26dp"
+        android:layout_height="19dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="44dp"
+        android:layout_marginEnd="8dp"
+        android:text="Day"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/spinner15"
+        app:layout_constraintHorizontal_bias="0.12"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView30" />
+</android.support.constraint.ConstraintLayout>
